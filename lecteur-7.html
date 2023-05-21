@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real - Kendrick Lamar</title>
+    <link rel="icon" href="images\Frame 1soundon-logo.ico"/>
+    <link rel="stylesheet" href="lecteur-main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <div class="bandeau">
+        <h1 class="logo">sound on.</h1>
+        <a href="page-playlist.html"><span class="material-symbols-outlined" style="font-size: 400%;">arrow_back_ios</span></a>
+    </div>
+
+    <div class="cover-layout">
+        <img src="images\gkmc.jpg" class="album-cover" style="width: 110%;">
+    
+        <div class="track-details">
+            <p class="track-name">Real</p>
+            <p class="artist">Kendrick Lamar</p>
+        </div>
+    </div>  
+    
+    <audio src="musique\Kendrick Lamar - Real (Ft. Anna Wise).mp3"></audio>
+  <div class="lecteur">
+    <div class="container">
+      <button class="btn prev">
+        <ion-icon name="play-back-outline"></ion-icon>
+      </button>
+      <button onclick="play(this)" class="btn play">
+        <ion-icon name="play-outline"></ion-icon>
+      </button>
+      <button class="btn ne next">
+        <ion-icon name="play-forward-outline"></ion-icon>
+      </button>
+    </div>
+    <script>
+      function play(e) {
+        let myAudio = document.querySelector("audio");
+        myAudio.paused ? myAudio.play() : myAudio.pause();
+        e.classList.toggle('pressed')
+      }
+    </script>
+  <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </div>
+</body>
+</html>

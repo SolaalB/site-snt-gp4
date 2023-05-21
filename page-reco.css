@@ -1,0 +1,111 @@
+body{
+    margin: 0px;       
+    background-color: #FFE0C2;
+     overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+.bandeau {
+    position:fixed;
+    width: 100%;
+    height: 25vh;
+    background: #7468C2;
+    z-index: 100;
+}
+
+.logo {
+    user-select: none;
+    color: white;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    font-family: "Manrope";
+    font-size: 500%;
+    font-weight: bolder;
+    top: 20%;
+    
+
+}
+
+.material-symbols-outlined {
+    user-select: none;
+    color: white;
+    position: absolute;
+    font-size: 300px;
+    left: 4%;
+    top: 33%;
+    font-family: "Manrope";
+
+}
+
+h2 {
+    font-family: "Manrope";
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    font-size: 200%;
+}
+
+.reco-1 {
+    top: 30%;
+    left: 8%;
+}
+
+.cover {
+    width: 10%;
+    padding-bottom: 4%;
+    float: left;
+}
+
+.reco-1-grid {
+    display: grid;
+    position: absolute;
+    top: 46%;
+    left: 11%;
+}
+
+.album-details {
+    font-size: 20px;
+    position: relative;
+    left: 3%;
+    bottom: -4%;
+    font-family: "Manrope";
+    line-height: 18%;
+}
+
+.artiste {
+    font-weight: bold;
+}
+
+.reco-2 {
+    top: 30%;
+    left: 61%;
+}
+
+.reco-2-grid {
+    display: grid;
+    position: absolute;
+    top: 46%;
+    right: 1%;
+}
+
+.cover-2 {
+    padding-right: 1.5%;
+    width: 16%;
+    padding-bottom: 6.25%;
+    float: left;
+}
+
+.artiste:hover {
+    color: #7468C2;
+}
+
+.album-details:hover {
+    color: #7468C2;
+    cursor: pointer;
+} 
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
