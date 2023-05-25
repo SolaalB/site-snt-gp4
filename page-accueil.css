@@ -21,7 +21,7 @@ li {
 }
 
 .logo-affichage {
-    margin-left: 79ch;
+    margin-left: 30%;
     margin-top: 36vh;
     line-height: 0px;
     position: absolute;
@@ -66,7 +66,7 @@ a:hover {
 }
 
 .button-playlist {
-    margin-left: 99ch;
+    margin-left: 75%;
     margin-top: 2%;
     background-color: white;
     padding-top: 1%;

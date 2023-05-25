@@ -30,7 +30,7 @@ font-family: "Manrope"
   position: absolute;
   top: 30vh;
   left: 19ch;
-  padding-right: 60%;
+  padding-right: 40%;
 }
 
 .playlist-details {
@@ -41,7 +41,7 @@ font-family: "Manrope"
 }
 
 #playlist-cover {
-  width: 30%;
+  width: 25%;
   top: 30vh;
   left: 19ch;
   float: left;
